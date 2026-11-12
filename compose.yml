@@ -1,0 +1,7 @@
+services:
+  app:
+    image: chandramouli18/appimage:latest
+    container_name: myapp
+    ports:
+      - "8081:8080"
+    restart: unless-stopped
