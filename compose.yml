@@ -1,6 +1,6 @@
 services:
   app:
-    image: chandramouli18/appimage:latest
+    image: chandramouli18/recap:appimage
     container_name: myapp
     ports:
       - "8081:8080"
