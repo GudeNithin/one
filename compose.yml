@@ -1,7 +1,7 @@
 services:
   app:
-    image: chandramouli18/recap:appimage
+    image: chandramouli18/nithin:v1
     container_name: myapp
     ports:
-      - "8081:8080"
-    restart: unless-stopped
+      - "8082:8080"
+    
