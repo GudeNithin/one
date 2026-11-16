@@ -1,4 +1,4 @@
-# This is a the pipeline syntax
+# This is a the pipeline code
 pipeline{
     agent any
     tools{
